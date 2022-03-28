@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>    <title>About Us</title>	
+        <meta name="viewpoint" content="with=device-width, initial-scae=1.0">
+        <link rel="stylesheet" type="text/css" href="css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"   rel="stylesheet" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="#" ><img src="logo.png" class="bingo" ></a>
+                <div class="nav-links">
+         
+
+                    <ul>
+                        <ul>
+							<li> <a href="home.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+						</li>
+							<li> 
+								<div class="dropdown">
+									<button class="dropbtn"> SERVICES
+									  <i class="fa fa-caret-down"></i>
+									</button>
+									<div class="dropdown-content">
+									<a href="HR_Full_Audit.html">HR Full Audit</a>
+									  <a href="HR_Process_Audit.html">HR Process Audit</a>
+									  <a href="Outsourced_HR_Function_Management.html">Outsourced HR Function Management</a>
+									  <a href="Standard_HR_services.html">Standard HR services</a>
+									</div>
+							</li>
+							<li> <a href="joblisting.html">JOB LISTING</a></li>
+							<li> <a href="SubmitCV.html">SUBMIT CV</a></li>
+							<li> <a href="contact_ex.html">CONTACT US</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+<div class="text-box">
+    <h1>  About Us </h1>
+    
+
+</div>
+        </section>
+        
+            <!--------------------who we are------------------------->
+
+         <section class="abouthome">
+			<div class="row">
+				<div class="abouthome-row" >
+					<img src="LS.PNG" height="400" width="400">
+				</div>
+				<div class="abouthome-col">
+					<div class="aa">
+						<h2>WHO WE ARE</h2>
+
+			</div>
+		    <div class="bb">
+				<h5>Welcome to Talent Booth</h5>
+			</div>
+				<p>Talent Booth is a Human resource and Administration company providing 
+					services as an outsourced Human Resource function and consultancy, with 
+					the aim of delivering efficiency and quality to client HR operations at 
+					the best proposition.
+					A duly registered business entity in Uganda under the companies Act with
+					 Uganda Registration Bureau Services (URBS) and Uganda Revenue Authority 
+					 ( URA) . It is also a member of the Human Resource Organization of Uganda
+					  and Federation of Uganda employers
+					  <BR>Transformational  | Dynamic  | Fast  | Agile  | Adaptable	
+					</p>
+				</div>
+			
+			</div>
+
+        <section><br><br><br><br>
+			<h1 class="headin">OUR TEAM</h1><br>
+			<div class="imag-container">
+				<div  class="imag" onclick="fetch_info(0)"> <img src="1square.jpg" class="aki"></div>
+				<div  class="imag" onclick="fetch_info(1)"> <img src="2square.jpg" class="aki"></div>
+				<div  class="imag" onclick="fetch_info(2)"> <img src="3square.jpg" class="aki"></div>
+				<div  class="imag" onclick="fetch_info(3)"> <img src="4square.jpg" class="aki"></div>
+			</div>
+			<div class="info-container">
+				<img class="profilet" id="profilet" src="1.jpg">
+				<div class="info">
+					<h1 class="namee" id="namee">Marie Pinycwa</h1><br>
+					<h3 class="statuss" id="statuss">Human Resource Specialist </h3>
+					<p class="abbout" id="abbout">
+					   Marie brings to Talent booth an experience of over fifteen years gained from the telecommunications and manufacturing industries in the fields of administration and Human Resources management with the added advantage of project management and Team Leadership. Her experience cuts across a broad spectrum of Human Resource disciplines having worked as an HR Generalist with hands- on demonstrated experience in Transactional HR and Business Partnering HR as well as specialist HR experience in Talent Management and development. 
+					   
+					</p>
+
+				</div>
+			</div>
+			<script>
+				function fetch_info() {
+					let profilet = ["1.jpg","2.jpg","3.jpg", "4.jpg"];
+					let namee =[
+						"Marie Pinycwa",
+						"Chanpe Trimph",
+						"Maryam Josh",
+						"Divien Anyao"
+					];
+					let statuss = [
+					  "Human Resource Specialist",
+					  "Account Head",
+					  "Team Leader",
+					  "Sect Head"
+					]
+					document.getElementById("profilet").src = profile[i];
+					document.getElementById("namee").innerHTML = namee[i];
+					document.getElementById("statuss").innerHTML = statuss[i];
+					document.getElementById("abbout").innerHTML = namee[i] +
+					dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+					dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+					dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+					dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+					;
+				}
+			</script>
+		</section>
+
+<!--------------------our purpose------------------------->
+            <div class="row">
+				
+				<div class="abouthome-col">
+					<div class="aa">
+				
+			</div>
+		    <div class="bb"><br>
+				<h1>OUR PURPOSE</h1>
+			</div>
+				<p>
+                    Companies today operate in a Volatile, uncertain, Complex and sometimes ambiguous  environment that has created a need for speed, agility and efficiency in order to maintain a competitive advantage in the markets. Human resources remain a strained resource and is often one of the key main costs in any organizations overheads. Harnessing the best results from one’s work force whilst keeping them motivated and engaged is the main competitive advantage any organization can and should have. 
+
+					Business start - ups find setting up the right structures daunting and need support in setting up the best structures from the onset that will see their business grow and flourish with the right workforce and right people decisions. 
+					
+					More established set ups are faced with continually evolving operating environments and will benefit from outsourcing of their non- core Human resource functions to enable them focus internally on key business drivers.
+					
+					Further still Continuous advancements in technology have created a platform that supports and enables virtual and outsourced HR functions without compromising on quality in delivery.
+				</p>
+				</div>
+                <div class="abouthome-row" ><br><br><br><br>
+					<img src="purpose.jpg" height="400" width="400">
+				</div>
+			
+			</div>
+
+			 <!--------------------our vission------------------------->
+			 <center> <h1>OUR VISSION</h1></center>
+			 <section class="ppp">
+				<h2> "To deliver quality,<br> world class solutions that meet and exceed<br> our
+					 customers’ needs and expectations at ALL times in Human resource and
+					  Administration management"
+				</h2>
+			 </section>
+			<!--------------------our Mission------------------------->
+			<div class="row">
+				<div class="abouthome-row" >
+					<img src="sucses.jpg" height="400" width="400">
+				</div>
+				<div class="abouthome-col">
+					<div class="aa">
+				
+			</div>
+			<div class="aa">
+				<h2>OUR MISSION</h2>
+	</div>
+		    <div class="bb">
+				<h5>Quality and value; whenever, wherever </h5>
+			</div>
+			<ol>
+				<li>Be Open minded & Ask questions, It is the best way to learn.</li>
+				<li>Be honest always With yourself and others.</li>
+				<li>Clear communication at all times </li>
+				<li>Have a "can do" attitude and Maintain a high Say/Do ratio</li>
+				<li>Keep it simple</li>
+				<li>Accept responsibility</li>
+				<li>Listen, listen, listen</li>
+				<li>Work hard</li>
+			  </ol>
+				</div>
+			</div>
+		</section>
+
+<!--footer-->
+			<section>
+			<center>
+
+			<footer class="ft">
+										
+							<div class="logo_footer">
+								<img src="logo.png" class="logo_footer_image" alt="img" width="105" height="105"></a>							</div>
+						</div>
+						<div class="ins">
+							<i class="fa fa-facebook"></i>
+							<i class="fa fa-twitter"></i>
+							<i class="fa fa-instagram"></i>
+							<i class="fa fa-linkedin"></i>
+						</div>
+						 
+				
+							<div class="copyright_text">Talent Booth:4TH Floor AHA towers,Lourdel Road,Nakasero<br />
+								Talent Booth © 2022 All rights reserved. <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank">Privacy Policy</a></div>
+		
+					
+				</center>
+			</section>			
+			</footer>        
+    </body>
+
+
+</html>

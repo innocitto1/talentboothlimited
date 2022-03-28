@@ -1,0 +1,79 @@
+
+.ft
+{
+    width: 550px;
+    height: 550px;
+    background-color: blueviolet;
+    color: burlywood;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+option{
+    color:hotpink;
+    padding: 12px;
+    text-decoration: none;
+
+}
+
+option:hover
+{
+    background-color: hotpink;
+    color: gray;
+}
+
+.nav
+{
+    width: 100%;
+    background-color: gray;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px;
+    text-align:right ;
+}
+
+.active
+{
+    background-color:hotpink;
+    color:grey;
+}
+
+ul li
+{
+    list-style-type: none;
+    background-color: lightblue;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    /*float: right;*/
+
+}
+
+.tbl
+{
+    background-color:gray;
+    text-align-last: left;
+    color: black;
+    padding: 10px;
+}
+
+.tbl td
+{ 
+    text-align:left;
+    padding: 10px;
+    border-bottom: 1px solid rgb(184, 40, 40);
+
+}
+.tbl tr:hover
+{
+    background-color: indigo;
+    color: whitesmoke;
+}
+
+
+.tbl tr:nth-child(even)
+{
+    background-color: rgb(218, 109, 127);
+}

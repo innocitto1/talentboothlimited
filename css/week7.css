@@ -1,0 +1,61 @@
+.frm
+{
+	background-color: lightblue;
+}
+form
+{
+  width: 35%;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+label
+{
+ float: left;
+}
+input
+{
+ width: 95%;
+ margin-top: 10px;
+margin-bottom: 10px;
+padding: 6px;
+margin-right: 10px;
+border-top-style: none;
+border-left-style: none;
+border-right-style: none;
+border-bottom-style: solid;
+border-width: 2px;
+border-color: black;
+color: green;
+box-shadow: 0px 5px 7px 0px lightgrey;
+}
+select
+{
+ width: 88%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding:  2px;
+border-top-style: none;
+border-left-style: none;
+border-right-style: none;
+border-bottom-style: solid;
+border-width: 2px;
+border-color: black;
+color: green;
+box-shadow: 0px 5px 7px 0px lightgrey;
+
+}
+button
+{
+padding: 15px;
+background-color: pink;
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;
+margin-top: 15px;
+box-shadow: 0px 5px 7px 0px lightgrey;
+
+
+}

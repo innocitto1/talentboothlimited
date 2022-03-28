@@ -1,0 +1,36 @@
+.dv1{
+
+    /*width: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-color: blueviolet;
+    border-style: solid;
+    padding: 10px;
+    border-width: 5px;
+    outline-style: double;
+    outline-color: green;
+    outline-width: 5px;
+    outline-offset: 20px;*/
+
+
+        width: 500px;
+        margin-top: 40px;
+        margin-left: 100px;
+        border-style: solid;
+        border-color: red;
+        padding: 10px;
+        border-width: 5px;
+        outline-style: double;
+        outline-color: green;
+        outline-width: 5px;
+        outline-offset: 20px;
+}
+
+.dv2{
+    width: 500px;
+    margin-left: 100px;
+    outline: 2px ridge blue;
+    color: crimson;
+    background-color: darkgray;
+    text-align: center;
+}

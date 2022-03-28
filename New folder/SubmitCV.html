@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>    <title>Submit CV</title>	
+        <meta name="viewpoint" content="with=device-width, initial-scae=1.0">
+        <link rel="stylesheet" type="text/css" href="css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"   rel="stylesheet" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+
+
+</head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="#" ><img src="logo.png" class="bingo" ></a>
+                <div class="nav-links">
+         
+
+                    <ul>
+                        <ul>
+							<li> <a href="home.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+						</li>
+							<li> 
+								<div class="dropdown">
+									<button class="dropbtn"> SERVICES
+									  <i class="fa fa-caret-down"></i>
+									</button>
+									<div class="dropdown-content">
+									<a href="HR_Full_Audit.html">HR Full Audit</a>
+									  <a href="HR_Process_Audit.html">HR Process Audit</a>
+									  <a href="Outsourced_HR_Function_Management.html">Outsourced HR Function Management</a>
+									  <a href="Standard_HR_services.html">Standard HR services</a>
+									</div>
+							</li>
+							<li> <a href="joblisting.html">JOB LISTING</a></li>
+							<li> <a href="SubmitCV.html">SUBMIT CV</a></li>
+							<li> <a href="contact_ex.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+<div class="text-box">
+    <h1>  Submit CV </h1>
+</div>
+        </section class="hj">
+			<!--------------------submit cv------------------------->
+            <br><br><br><br><br>
+            <div class="regform" ><h1>Submit Your CV</h1></div>
+            <div class="mane">
+                <form class="myform" action="database.php" method="POST" enctype="multipart/form-data">
+                    <div id="nm">
+                    
+                        <h2 class="nm">Name</h2>
+                    <input class="firstname" type="text" name="first_name" placeholder="Enter your firstname"><br>
+                    <label class="firstlabel">first name</label>
+                    <input class="lastname" type="text" name="last_name" placeholder="Enter your lastname">
+                    <label class="lastlabel">last name</label>
+                    </div>
+                    
+                    <h2 class="nm">Email</h2>
+                    <input class="email" type="text" name="email" placeholder="Enter your email">
+                    
+                    <h2 class="nm">Phone</h2>
+                    <input class="code" type="text" name="area_code">
+                    <label class="area_code">Area Code</label>
+                    <input class="number" type="text" name="phone">
+                    <label class="phone_number">Phone Number</label>
+
+                    <h2 class="nm">Gender</h2>
+                    <label class="radio">
+                    <input class="raio_one" type="radio"   name="">
+                    <span class="checkmark"></span>
+                    Male
+                    </label>
+                    <label class="radio">
+                        <input class="raio_two" type="radio" name="">
+                        <span class="checkmark"></span>
+                        Female
+                        </label>
+
+                    <h2 class="nm"> Upload CV</h2>
+                    <input  class="cv" type="File" name="File" multiple  placeholder="chooes file">
+                
+                   <center> <button class="zot" type="submit">SUBMIT</button></center>
+                </form>
+            </div><br><br><br><br><br>
+		</section>
+
+<!--footer-->
+			<section>
+			<center>
+
+			<footer class="ft">
+										
+							<div class="logo_footer">
+								<img src="logo.png" class="logo_footer_image" alt="img" width="105" height="105"></a>							</div>
+						</div>
+                        <div class="ins">
+							<i class="fa fa-facebook"></i>
+							<i class="fa fa-twitter"></i>
+							<i class="fa fa-instagram"></i>
+							<i class="fa fa-linkedin"></i>
+						</div>
+				
+							<div class="copyright_text">Talent Booth:4TH Floor AHA towers,Lourdel Road,Nakasero<br />
+								Talent Booth © 2022 All rights reserved. <a href="#" target="_blank">Terms of use</a> and <a href="#" target="_blank">Privacy Policy</a></div>
+		
+					
+				</center>
+			</section>			
+			</footer>        
+    </body>
+
+
+</html>

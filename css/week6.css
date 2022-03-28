@@ -1,0 +1,59 @@
+.MainDiv
+{
+position: relative;
+display: inline-block;
+}
+
+.btn
+{
+
+	background-color: lightyellow;
+	color: black;
+	padding: 14px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.MainDiv:hover .btn
+{
+	background-color: maroon;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.MainDiv:hover .Menus
+{
+	display: block;
+}
+
+.Menus
+{
+	display: none;
+	position: absolute;
+	background-color: purple;
+	color: yellow;
+	width: 100%;
+	z-index: 1;
+	width: 200px;
+}
+
+.Menus a 
+{
+
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+
+}
+
+.Menus a:hover
+{
+
+	color: white;
+	background-color: green;
+}

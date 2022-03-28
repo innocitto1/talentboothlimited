@@ -1,0 +1,40 @@
+
+
+.dv1
+{
+    background-color: rgb(243, 192, 129);
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 15;
+    border-radius: 10px;
+    text-align: justify;
+    border-style: solid;
+    border-top-width: 4px;
+}
+
+.dv2
+{
+    background-color: rgb(214, 174, 124);
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 15;
+    border-radius: 10px;
+    text-align: justify;
+    border-style: solid;
+    border-top-width: 4px;
+}
+
+
+.font
+{
+    color:orange;
+}
+
+.girl
+{
+    color: blueviolet;
+}
